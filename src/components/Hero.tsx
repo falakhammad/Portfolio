@@ -31,12 +31,12 @@ const Hero = () => {
       <div className="text-center text-white z-10 px-6 max-w-4xl">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-shadow animate-fade-in">
           Falak Ejaz
-          <span className="block text-3xl md:text-5xl bg-gradient-to-r from-accent to-purple-400 bg-clip-text text-transparent">
-            Portfolio
+          <span className="block text-3xl md:text-5xl bg-gradient-to-r from-accent to-purple-400 bg-clip-text text-transparent pt-5">
+            Software Developer & Data Analyst 
           </span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto text-shadow animate-fade-in">
-          Developer & Data Analyst crafting digital solutions with code and insight.
+          Crafting digital solutions with code and insight.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
           <Button 
