@@ -1,4 +1,5 @@
 import { Card } from '@/components/ui/card';
+import mySelf from '@/assets/self.png';
 
 const About = () => {
   return (
@@ -10,6 +11,14 @@ const About = () => {
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="profile-container">
+              <div className="blob"></div>
+              <img 
+                src={mySelf}
+                alt="Falak Ejaz"
+                className="w-full object-cover"
+              />
+            </div>
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-foreground">
                 Passionate Developer & Designer
@@ -33,32 +42,6 @@ const About = () => {
                   <div className="text-2xl font-bold text-accent mb-2">5+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </Card>
-              </div>
-            </div>
-            
-            <div className="relative">
-              <div className="bg-gradient-to-br from-accent/20 to-purple-500/20 rounded-2xl p-8 backdrop-blur-sm">
-                <div className="bg-card rounded-xl p-6 card-elevated">
-                  <h4 className="text-xl font-semibold mb-4 text-foreground">Core Values</h4>
-                  <ul className="space-y-3">
-                    <li className="flex items-center text-muted-foreground">
-                      <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                      Quality over quantity
-                    </li>
-                    <li className="flex items-center text-muted-foreground">
-                      <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                      User-centered design
-                    </li>
-                    <li className="flex items-center text-muted-foreground">
-                      <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                      Continuous innovation
-                    </li>
-                    <li className="flex items-center text-muted-foreground">
-                      <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                      Clean, maintainable code
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

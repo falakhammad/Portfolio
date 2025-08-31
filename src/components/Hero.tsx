@@ -25,7 +25,7 @@ const Hero = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
-        transform: `translateY(${scrollY * 0.5}px)`,
+        transform: `translateY(${scrollY * 0.3}px)`,
       }}
     >
       <div className="text-center text-white z-10 px-6 max-w-4xl">
@@ -36,7 +36,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto text-shadow animate-fade-in">
-          Crafting exceptional digital experiences with modern design and cutting-edge technology
+          Developer & Data Analyst crafting digital solutions with code and insight.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
           <Button 

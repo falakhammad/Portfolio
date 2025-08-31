@@ -58,7 +58,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">Connect</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/falakhammad" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
@@ -66,7 +66,7 @@ const Footer = () => {
                   <Github size={20} />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/falak-ejaz/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
@@ -74,15 +74,7 @@ const Footer = () => {
                   <Linkedin size={20} />
                 </a>
                 <a 
-                  href="https://twitter.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
-                >
-                  <Twitter size={20} />
-                </a>
-                <a 
-                  href="mailto:hello@portfolio.com"
+                  href="mailto:falakhammad05@gmail.com"
                   className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
                 >
                   <Mail size={20} />

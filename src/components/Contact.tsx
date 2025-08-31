@@ -55,22 +55,22 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-center">
-                  <div className="p-3 bg-accent/10 rounded-lg mr-4">
+                  <button type="button" onClick={() => window.open('mailto:falakhammad05@gmail.com', '_blank')} className="p-3 bg-accent/10 rounded-lg mr-4">
                     <Mail className="w-6 h-6 text-accent" />
-                  </div>
+                  </button>
                   <div>
                     <div className="font-semibold text-foreground">Email</div>
-                    <div className="text-muted-foreground">hello@portfolio.com</div>
+                    <div className="text-muted-foreground">falakhammad05@gmail.com</div>
                   </div>
                 </div>
                 
                 <div className="flex items-center">
-                  <div className="p-3 bg-accent/10 rounded-lg mr-4">
+                  <a href="tel:+971565363027" className="p-3 bg-accent/10 rounded-lg mr-4">
                     <Phone className="w-6 h-6 text-accent" />
-                  </div>
+                  </a>
                   <div>
                     <div className="font-semibold text-foreground">Phone</div>
-                    <div className="text-muted-foreground">+1 (555) 123-4567</div>
+                    <div className="text-muted-foreground">+971 (56) 636-3027</div>
                   </div>
                 </div>
                 
@@ -80,7 +80,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Location</div>
-                    <div className="text-muted-foreground">San Francisco, CA</div>
+                    <div className="text-muted-foreground">Dubai, UAE</div>
                   </div>
                 </div>
               </div>

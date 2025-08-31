@@ -116,6 +116,7 @@ All colors MUST be HSL.
 }
 
 @layer components {
+
   /* Portfolio-specific component styles */
   .hero-section {
     background: var(--hero-gradient);
@@ -169,5 +170,31 @@ All colors MUST be HSL.
 
   .parallax-base {
     transform: translateZ(0);
+  }
+
+  .profile-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .blob {
+    width: 400px;
+    height: 400px;
+    background: var(--hero-gradient-overlay);
+    /* your blue */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 60% 40% 30% 70% / 50% 60% 40% 50%;
+    /* irregular blob */
+    z-index: 1;
+  }
+
+  .profile-container img {
+    width: 400px;
+    position: relative;
+    z-index: 2;
+    border-bottom-left-radius: 70% 50%;
+    border-bottom-right-radius: 30% 40%;
   }
 }
