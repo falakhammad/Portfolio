@@ -30,8 +30,8 @@ const Hero = () => {
     >
       <div className="text-center text-white z-10 px-6 max-w-4xl">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-shadow animate-fade-in">
-          Professional
-          <span className="block bg-gradient-to-r from-accent to-purple-400 bg-clip-text text-transparent">
+          Falak Ejaz
+          <span className="block text-3xl md:text-5xl bg-gradient-to-r from-accent to-purple-400 bg-clip-text text-transparent">
             Portfolio
           </span>
         </h1>
