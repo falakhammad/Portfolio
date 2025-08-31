@@ -178,9 +178,9 @@ All colors MUST be HSL.
   }
 
   .blob {
-    width: 400px;
-    height: 400px;
-    background: var(--hero-gradient-overlay);
+    width: 100%;
+    height: 100%;
+    background: var(--hero-gradient);
     /* your blue */
     position: absolute;
     top: 0;
@@ -191,7 +191,7 @@ All colors MUST be HSL.
   }
 
   .profile-container img {
-    width: 400px;
+    width: 100%;
     position: relative;
     z-index: 2;
     border-bottom-left-radius: 70% 50%;
