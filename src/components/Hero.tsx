@@ -32,7 +32,7 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-shadow animate-fade-in">
           Falak Ejaz
           <span className="block text-3xl md:text-5xl bg-gradient-to-r from-accent to-purple-400 bg-clip-text text-transparent pt-5">
-            Software Developer & Data Analyst 
+            Software Developer , Aspiring Data Analyst 
           </span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto text-shadow animate-fade-in">

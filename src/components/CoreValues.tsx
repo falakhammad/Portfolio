@@ -20,19 +20,19 @@ const CoreValues = () => {
                                     <ul className="space-y-3">
                                         <li className="flex items-center text-muted-foreground">
                                             <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                                            Quality over quantity
+                                            I uphold integrity and accountability in every professional interaction.
                                         </li>
                                         <li className="flex items-center text-muted-foreground">
                                             <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                                            User-centered design
+                                           I strive for excellence by delivering high-quality work with consistency and dedication.
                                         </li>
                                         <li className="flex items-center text-muted-foreground">
                                             <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                                            Continuous innovation
+                                           I value clear communication, collaboration, and respect as the foundation of strong teamwork.
                                         </li>
                                         <li className="flex items-center text-muted-foreground">
                                             <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                                            Clean, maintainable code
+                                           I embrace continuous learning and adaptability to drive growth and innovation.
                                         </li>
                                     </ul>
                                 </div>
