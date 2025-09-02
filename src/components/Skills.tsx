@@ -5,26 +5,26 @@ const skills = [
   {
     icon: Code,
     title: 'Frontend Development',
-    description: 'React, TypeScript, Next.js, Vue.js',
-    technologies: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vue.js']
+    description: 'React, TypeScript, Next.js',
+    technologies: ['React', 'TypeScript', 'Next.js', 'Material UI']
   },
   {
     icon: Palette,
-    title: 'UI/UX Design',
-    description: 'Modern design principles and user experience',
-    technologies: ['Figma', 'Adobe XD', 'Prototyping', 'User Research']
+    title: 'Backend Development',
+    description: 'API development , System Integrations',
+    technologies: ['Python', 'Node.Js', 'SQL', 'Integrations' ]
   },
   {
     icon: Smartphone,
-    title: 'Responsive Design',
-    description: 'Mobile-first approach and cross-platform compatibility',
-    technologies: ['CSS Grid', 'Flexbox', 'Bootstrap', 'Material-UI']
+    title: 'Business Analysis & Technical Documentation',
+    description: 'User Stories, Wireframes, Stakeholder Meetings, Documentation',
+    technologies: ['Visio', 'Jira', 'Figma', 'Sharepoint', 'Office 365']
   },
   {
     icon: Zap,
-    title: 'Performance',
-    description: 'Optimization and modern development practices',
-    technologies: ['Webpack', 'Vite', 'Performance Audits', 'SEO']
+    title: 'Data  Analysis',
+    description: 'Data Cleaning, Data Transformation, Data Visualization',
+    technologies: ['Python', 'Pandas', 'SQL', 'Power BI', 'Tableau']
   }
 ];
 
@@ -37,7 +37,7 @@ const Skills = () => {
             Skills & Expertise
           </h2>
           <p className="text-center text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern, scalable, and beautiful web applications
+            I am Software Engineer with a passion for coding and problem-solving. I specialize in frontend development, backend development, Bussiness Analysis , Technical documentation and Data Analysis.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

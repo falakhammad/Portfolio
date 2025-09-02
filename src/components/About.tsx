@@ -21,25 +21,22 @@ const About = () => {
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-foreground">
-                Passionate Developer & Designer
+                Passionate Developer and Business Analyst
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                With over 5 years of experience in web development, I specialize in creating 
-                beautiful, functional, and user-centered digital experiences. My expertise spans 
-                modern frontend technologies, responsive design, and performance optimization.
+                I am a results-driven professional with over four years of experience in development and business analysis, backed by an MS in Data Science. My expertise lies in bridging the gap between business needs and technical solutions, turning data into actionable insights that drive growth and efficiency.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                I believe in the power of clean code, thoughtful design, and continuous learning. 
-                Every project is an opportunity to push boundaries and deliver exceptional results.
+              I thrive in dynamic environments where problem-solving, collaboration, and continuous learning are key to success. Passionate about technology, data, and innovation, I am committed to delivering impactful solutions and creating value in every project I take on.
               </p>
               
               <div className="grid grid-cols-2 gap-4">
                 <Card className="p-4 text-center card-elevated">
-                  <div className="text-2xl font-bold text-accent mb-2">50+</div>
+                  <div className="text-2xl font-bold text-accent mb-2">5+</div>
                   <div className="text-sm text-muted-foreground">Projects Completed</div>
                 </Card>
                 <Card className="p-4 text-center card-elevated">
-                  <div className="text-2xl font-bold text-accent mb-2">5+</div>
+                  <div className="text-2xl font-bold text-accent mb-2">4+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </Card>
               </div>
